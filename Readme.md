@@ -39,3 +39,14 @@
 -> Junção das branches (merge), comandos:
  
  •
+
+-> Excluir branches
+ 
+ • git branches
+ - saber quais os branches disponíveis
+
+ • git branches -d branche_name
+
+-> Renomear branches
+
+• git branch -m last_name new_name
