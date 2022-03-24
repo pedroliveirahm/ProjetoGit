@@ -26,7 +26,7 @@
 
 -> Criação de uma nova branch, comandos
 
- • git checkout -b "novo-botao"
+ • git branch branch_name // git checkout -b "novo-botao"
  - Cria uma nova branch chamada "novo-botao"
  - Com o checkout: branch (main) -> nova branch (novo-botao)
 
