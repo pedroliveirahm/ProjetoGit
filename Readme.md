@@ -30,7 +30,7 @@
  - Cria uma nova branch chamada "novo-botao"
  - Com o checkout: branch (main) -> nova branch (novo-botao)
 
- •git add file_name // git add .
+ • git add file_name // git add .
 
  • git commit -m "caracter"
 
@@ -38,14 +38,14 @@
 
 -> Junção das branches (merge), comandos:
  
- •
+ • git merge branch_name
 
 -> Excluir branches
  
- • git branches
+ • git branch
  - saber quais os branches disponíveis
 
- • git branches -d branche_name
+ • git branch -d branche_name
 
 -> Renomear branches
 
