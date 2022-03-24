@@ -36,4 +36,6 @@
 
  • git push origin novo-botao
 
-
+-> Junção das branches (merge), comandos:
+ 
+ •
