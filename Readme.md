@@ -11,13 +11,14 @@
 <a href="#comandos">Comandos</a>
 </p>
 
-# Primeiros passos
+
+# Requisitos
 <p>Baixar e instalar o Git</p>
 <p>Criar uma nova pasta</p>
 <p>Crie um File.md</p>
-<p>Com o botão direito do mouse clique em Git Bash</p>
+<p>Na file, com o botão direito do mouse clique em Git Bash</p>
 
-#  Comandos
+# Comandos
 <p>git init</p>
 <p>git branch -M main</p>
 <p>git add file_name</p> <!-- coloca na área de standing -->
@@ -54,3 +55,13 @@
 
 # Atalhos
 <p>Ctrl + L -> Clear</p>
+
+---
+Made with by 💙 Pedro PC 👋 <a href="https://github.com/pedroliveirahm">Seen my GitHub</a>
+
+```bash
+
+#HTML
+$Markdown
+
+````
