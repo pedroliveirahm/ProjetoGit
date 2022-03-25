@@ -1,63 +1,56 @@
--> Integração do Git com o GitHub,
+<!-- A edição dos elementos gráficos foram feitas por mim -->
 
- - Processo: Diretório -> Aréa de standing -> Repositório
+<!-- Título -->
+# Integração do Git com o GitHub
 
- - Após a inicialização do Git Bash na pasta, comandos:
-
- • git init
- -init(initialized) 
-
- • git branch -M main
- - acesso a branch principal (main)
-
- • git add file_name 
- - git add.  \\ para adicionar todos os arquivos em standing
-
- • git status
-
- • git commit -m "primeiro commit"  
-
- • git remote add origin link_do_repositório
-
--> Salvar novamente, comandos:
-
- • git add file_name // git add .
-
- • git status
-
- • git commit -m "alteração do projeto"
-
- • git push origin main
-
--> Criação de uma nova branch, comandos
-
- • git branch branch_name // git checkout -b "novo-botao"
- - Cria uma nova branch chamada "novo-botao"
- - Com o checkout: branch (main) -> nova branch (novo-botao)
-
- • git add file_name // git add .
-
- • git commit -m "caracter"
-
- • git push origin novo-botao
-
--> Junção das branches (merge), comandos:
+<!-- Descrição -->
+<p align="center" >Desktop -> Àrea de standing -> Repositório</p>
  
- • git merge branch_name
+<!-- Tabela de conteúdos -->
+<p>
+<a href="#comandos">Comandos</a>
+</p>
 
--> Excluir branches
- 
- • git branch
- - saber quais os branches disponíveis
+# Primeiros passos
+<p>Baixar e instalar o Git</p>
+<p>Criar uma nova pasta</p>
+<p>Crie um File.md</p>
+<p>Com o botão direito do mouse clique em Git Bash</p>
 
- • git branch -d branche_name
+#  Comandos
+<p>git init</p>
+<p>git branch -M main</p>
+<p>git add file_name</p> <!-- coloca na área de standing -->
+<p>git status</p>
+<p>git commit -m "primeiro commit"</p>
+<p>git remote add origin link_do_repositório</p>
+<p>git push origin main</p>
 
--> Renomear branches
+# Criação de Branch alternativa
+<p>git branch branch_name</p>
 
- • git branch -m last_name new_name
+# Colocando a File em Standing na nova Branch
+<p>git add file_name</p>
 
- -> Clone do repositório
+# Commit & Push da Branch Alternativa
+<p>git commit -m "primeira branch"</p>
+<p>git push origin branch_name</p>
 
- -Após criar uma nova pasta para guardar o clone do repositório
+# Junção das Branch's (Merge)
+<p>git checkout main</p>
+<p>git merge branch_name</p>
 
- • git clone repository_link
+# Quais Branch's estão disponíveis
+<p>git branch</p>
+
+# Excluir branch
+<p>git -d branch_name</p>
+
+# Renomear branch
+<p>git branch -m last_name new_name</p>
+
+# Clonar repositório
+<p>git clone repositório_link</p>
+
+# Atalhos
+<p>Ctrl + L -> Clear</p>
