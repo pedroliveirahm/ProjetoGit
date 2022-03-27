@@ -1,5 +1,3 @@
-<!-- A edição dos elementos gráficos foram feitas por mim -->
-
 <!-- Título -->
 # Integração do Git com o GitHub
 
@@ -7,15 +5,12 @@
 <p align="center" >Desktop -> Àrea de standing -> Repositório</p>
  
 <!-- Tabela de conteúdos -->
-<p>
-<a href="#comandos">Comandos</a>
-</p>
-
+[Comandos](#comandos)
 
 # Requisitos
-<p>Baixar e instalar o Git</p>
-<p>Criar uma nova pasta</p>
-<p>Crie um File.md</p>
+<p>Baixar e instalar o <a href="https://git-scm.com/" target="_blank">Git</a></p>
+<p>Criar uma pasta</p>
+<p>Crie um arquivo.md</p>
 <p>Na file, com o botão direito do mouse clique em Git Bash</p>
 
 # Comandos
