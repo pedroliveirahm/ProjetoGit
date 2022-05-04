@@ -1,59 +1,91 @@
-<!-- Título -->
+
 # Integração do Git com o GitHub
 
-<p align="center" >Desktop -> Àrea de standing -> Repositório</p> 
+<p align="center" >Desktop -> Àrea de unstage -> Repositório</p> 
 
 ### Requisitos :
 1. Baixar e Instalar o <a href="https://git-scm.com/" target="_blank">Git</a>
 
-• Criar uma pasta (folder)</p>
-• Crie um arquivo.md</p>
-• No arquivo (file), com o botão direito do mouse, clique em Git Bash
+* Crie um arquivo.md
+* No arquivo (file), com o botão direito do mouse, clique em Git Bash
 
-# Comandos
-<p>git init</p>
-<p>git branch -M main</p>
-<p>git add file_name</p> <!-- coloca na área de standing -->
-<p>git status</p>
-<p>git commit -m "primeiro commit"</p>
-<p>git remote add origin link_do_repositório</p>
-<p>git push origin main</p>
+### Primeiros Passos 
+* Alterar o exibir, habilitanto as : 
+    * Pastas ocultas
+    * Extensão de arquivo
+* Abrir o Git Bash
+## Comandos
+1. Identificação
+```bash
+git --global user.name "pedroliveirahm"
+git --global user.email pedroliveirahm@gmail.com
+```
+2. Achar o repositório
+```bash
+cd local-do-arquivo
+cd ..
+# para voltar pastas
+```
+3. Criar um repositório no github
+### Comandos principais
+```bash
+git init
+# inicia uma conexão com a pasta
+# esse comando só é feito 1 vez no diretório
 
-# Criação de Branch alternativa
-<p>git branch branch_name</p>
+git branch -M main
+# entra na branch main (principal)
+# esse comando só é feito 1 vez no diretório
 
-# Colocando a File em Standing na nova Branch
-<p>git add file_name</p>
+git add nome-do-arquivo
+# esse passo coloca o arquivo em unstage - estado de preparação para receber um commit
 
-# Commit & Push da Branch Alternativa
-<p>git commit -m "primeira branch"</p>
-<p>git push origin branch_name</p>
+git status
+# mostra os status - o que está na pasta, o que está em unstage, o que foi comitado, excluído, alterado ...
 
-# Junção das Branch's (Merge)
-<p>git checkout main</p>
-<p>git merge branch_name</p>
+git commit -m "descrição do commit"
+# o commit é uma efetivação das alterações
+# prepara os arquivos que estavam em unstaged para enviar para o servidor
 
-# Quais Branch's estão disponíveis
-<p>git branch</p>
+git remote add origin link-do-repositório
+# diz para onde o commit será enviado
+# essa etapa só precisa ser feita uma primeira vez
 
-# Excluir branch
-<p>git -d branch_name</p>
+git push origin main 
+# a partir daqui os arquivos já estarão disponíveis no github
+```
 
-# Renomear branch
-<p>git branch -m last_name new_name</p>
+### Comandos Secudários
+```bash
+git reset
+# tira os arquivos que estavam em unstaged
 
-# Clonar repositório
-<p>git clone repositório_link</p>
+git clone repositório_link
+# clona algum repositório público do github
+```
+### Comandos de Branch
+```bash
+git branch
+# semelhante ao git status, o git branch vê quais branchs estão disponíveis
 
-# Atalhos
+git branch nome-da-branch
+# cria uma branch alternativa no nome escolhido
+
+git chekout main
+# sai da branch main
+
+git merge nome-branch
+# junta as branchs (merge)
+
+git branch -d nome-branch
+# -d (delete) exclui a branch 
+
+git branch -m antigo-nome novo-nome
+# renomeia a branch
+```
+### Atalhos
 <p>Ctrl + L -> Clear</p>
 
 ---
 Made with by 💙 Pedro PC 👋 <a href="https://github.com/pedroliveirahm">Seen my GitHub</a>
-
-```bash
-
-#HTML
-$Markdown
-
-````
+* <strong>Fale comigo : <a href="https://bio.link/pedroliveirahm" target="_blank">Contato</a></strong>
