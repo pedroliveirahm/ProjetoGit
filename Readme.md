@@ -20,12 +20,15 @@
 git --global user.name "pedroliveirahm"
 git --global user.email pedroliveirahm@gmail.com
 ```
-2. Achar o repositório
+2. Achar o diretório - pasta 
 ```bash
 cd local-do-arquivo
 cd ..
 # para voltar pastas
+
+* Ou apertar com botão esquerdo do mouse e clicar em git bash na própria pasta
 ```
+
 3. Criar um repositório no github
 ### Comandos principais
 ```bash
